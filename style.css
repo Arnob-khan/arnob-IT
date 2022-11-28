@@ -1,0 +1,33 @@
+
+.carousel-item{
+   
+    background-color: #000;
+}
+.carousel-item img{
+    opacity: 0.3;
+}
+.carousel-title{
+    top: 15rem;
+}
+.carousel-caption h1{
+    font-size: 4rem;
+}
+@media screen and (max-width:768px){
+     .carousel-caption h1{
+        font-size: 1.2rem;
+     }
+    .carousel-title{
+        top: 2rem;
+        font-size: 0.4rem;
+     }
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+     .carousel-caption h1{
+        font-size: 3rem;
+     }
+    .carousel-title{
+        top: 5rem;
+        font-size: 1rem;
+     }
+}
