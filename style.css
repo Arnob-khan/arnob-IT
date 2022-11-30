@@ -2,8 +2,8 @@
 .carousel-item{   
     background: #000;
 }
-.carousel-item img{
-    opacity: 0.3;
+.image-opacity{
+    opacity: 0.4;
 }
 .carousel-title{
     top: 15rem;
@@ -12,11 +12,10 @@
     font-size: 4rem;
 }
 
-/* student feedback carousel  */
-.carousel-item img{
-    opacity: 1;
-}
 
+
+
+/* Responsive part  */
 
 @media screen and (max-width:768px){
      .carousel-caption h1{
