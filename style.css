@@ -12,6 +12,12 @@
 .carousel-caption h1{
     font-size: 4rem;
 }
+
+/* student feedback carousel  */
+.carousel-item img{
+    opacity: 1;
+}
+
 @media screen and (max-width:768px){
      .carousel-caption h1{
         font-size: 1.2rem;
