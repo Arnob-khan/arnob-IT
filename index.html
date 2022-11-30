@@ -28,25 +28,25 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-                    <div class="w-75 m-auto ">
+                    <div class="w-100 m-auto ">
                         <ul class="navbar-nav justify-content-evenly">
                             <li class="nav-item ">
-                                <a class="nav-link fw-semibold text-secondary" aria-current="page" href="#">Home</a>
+                                <a class="nav-link fw-semibold text-secondary fs-5 display-1" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link fw-semibold text-secondary" href="#">Cousers</a>
+                                <a class="nav-link fw-semibold text-secondary fs-5 display-1" href="#">Cousers</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link fw-semibold text-secondary" href="#">Deals</a>
+                                <a class="nav-link fw-semibold text-secondary fs-5 display-1" href="#">Deals</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link fw-semibold text-secondary" href="#">Success</a>
+                                <a class="nav-link fw-semibold text-secondary fs-5 display-1" href="#">Success</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link fw-semibold text-secondary" href="#">About</a>
+                                <a class="nav-link fw-semibold text-secondary fs-5 display-1" href="#">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link fw-semibold text-secondary" href="#">Register</a>
+                                <a class="nav-link fw-semibold text-secondary fs-5 display-1" href="#">Register</a>
                             </li>
 
                         </ul>
@@ -54,7 +54,7 @@
 
 
                     <div>
-                        <button class="btn btn-outline-primary" type="submit">Register</button>
+                        <button class="btn btn-outline-primary px-4 py-2" type="submit">Register</button>
 
                     </div>
                 </div>
@@ -67,7 +67,7 @@
             <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
            
                 <div class="carousel-inner">
-                  <div class="carousel-item active  " data-bs-interval="10000" ">
+                  <div class="carousel-item active" data-bs-interval="10000" ">
                     <img src="./images/cover/cover-1.png" class="d-block w-100 h-100 " alt="...">   
                     <div class="carousel-caption d-block d-md-block text-white carousel-title ">
                       <h1 class=" fw-bold ">Get Started Digital Learning</h1>
@@ -101,8 +101,7 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
-        </section>
-        
+        </section>   
         <!-- slider end  -->
     </header>
    
@@ -220,8 +219,40 @@
                 <p class="my-3" >It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
               </div>
               <div class="col d-flex justify-content-center justify-content-md-center justify-content-lg-end  align-items-center ">
-              <button class="btn btn-light text-primary ">Register Now</button>
-
+              <button class="btn btn-light text-primary " data-bs-toggle="modal" data-bs-target="#exampleModal" >Register Now</button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header justify-content-center">
+                      <h1 class="modal-title fs-4" id="exampleModalLabel">Sign Up</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                              <label for="exampleInputName" class="form-label">Name</label>
+                              <input type="text" class="form-control" id="exampleInputName" placeholder="Enter your name" aria-describedby="Name">
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your name">
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Phone</label>
+                              <input type="number" class="form-control" id="exampleInputPhone" aria-describedby="Phone" placeholder="Enter your name">
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your password">
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary text-center">Submit</button>
+                          </form>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
               </div>
            </div>
         </section>
@@ -490,9 +521,40 @@
 
         </section>
         <!-- frequently asked question section end  -->
+
+        <!-- company section start  -->
+
+        <section class="container py-5 d-none d-md-none d-lg-block">
+            <h2 class="text-center pb-4">Trusted by over 800+ companies</h2>
+            <div class=" d-flex justify-content-between align-content-center">
+                <img src="./images/company/company-1.png" alt="no image">
+                <img src="./images/company/company-2.png" alt="no image">
+                <img src="./images/company/company-3.png" alt="no image">
+                <img src="./images/company/company-4.png" alt="no image">
+                <img src="./images/company/company-5.png" alt="no image">
+                <img src="./images/company/company-6.png" alt="no image">
+            </div>
+
+        </section>
+        <!-- company section end  -->
         
 
     </main>
+
+    <footer class=" bg-dark py-5">
+        <div class=" d-flex justify-content-center align-items-center text-white flex-column">
+            <h1 class="m-0 fw-bold">ARNOB-IT</h1>
+            <p class="m-0"><small>&copy;Md.Sayad Ebne Jahid khan</small></p>
+            <p class="m-0"><a href="" class=" text-white text-decoration-none"><small>Privacy Ploicy  |   Terms of use</small></a></p>
+            <div class=" d-flex justify-content-center align-items-center p-2 ">
+                <i class="fa-brands fa-facebook mx-2 fs-4"></i>
+                <i class="fa-brands fa-twitter mx-2 fs-4"></i>
+                <i class="fa-brands fa-linkedin mx-2 fs-4"></i>
+                <i class="fa-brands fa-tiktok mx-2 fs-4"></i>
+            </div>
+        </div>
+        
+    </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
